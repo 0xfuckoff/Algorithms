@@ -1,4 +1,10 @@
-# Exercise 
+# Short implementation of Dijkstra's Algorithm with some notes, 
+# Dijkstra's Algorithm is different than BFS in that it calculates, 
+# The shortest path using weighted graphs, whilst BFS calculates,
+# The short path using unweighted graphs. 
+# Note that Dijkstra's Algorithm only works on positive weighted values and not negative,
+# For that sort of algorithm refer to Bellman's Algorithm
+# Exercise code:
 
 graph = {}
 graph["start"] = {}
